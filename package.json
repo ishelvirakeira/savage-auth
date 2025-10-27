@@ -1,5 +1,5 @@
 {
-  "name": "node-authentication",
+  "name": "authentication",
   "main": "server.js",
   "dependencies": {
     "bcrypt": "*",
@@ -21,5 +21,22 @@
     "passport-google-oauth": "~1.0.0",
     "passport-local": "~1.0.0",
     "passport-twitter": "^0.1.5"
-  }
+  },
+  "version": "1.0.0",
+  "description": "1. Clone repo\r 2. run `npm install`",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishelvirakeira/savage-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishelvirakeira/savage-auth/issues"
+  },
+  "homepage": "https://github.com/ishelvirakeira/savage-auth#readme"
 }
