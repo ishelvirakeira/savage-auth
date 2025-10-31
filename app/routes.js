@@ -35,12 +35,19 @@ module.exports = function(app, passport, db) {
         res.redirect('/profile')
       })
     })
-
+//I used the same thing in savage demo
     app.put('/messages', (req, res) => {
+      let oper
+      if(Object.keys(req.body)[2] == 'thumbUp'){
+        oper = req.body.thumbUp + 1
+      } else if(Object.keys(req.body)[2] == 'thumbDown'){
+        oper = req.body.thumbDown - 1
+      }
       db.collection('messages')
       .findOneAndUpdate({name: req.body.name, msg: req.body.msg}, {
         $set: {
-          thumbUp:req.body.thumbUp + 1
+          thumbUp:oper
+          //thumbUp:req.body.thumbUp + 1
         }
       }, {
         sort: {_id: -1},
