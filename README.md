@@ -1,13 +1,17 @@
-## Installation
+This project is a full-stack web application inspired by the “Savage Auth” template, focusing on 21 Savage fans. Users can sign up, log in, and post messages, and interact with messages by clicking thumbs up and thumbs down. Authentication is handled securely using bcryptjs to hash passwords, and the application demonstrates CRUD operations (Create, Read, Update, Delete) for both messages and user accounts. The project integrates a MongoDB database to store user information and messages, and uses EJS templates for dynamic rendering.
 
-1. Clone repo
-2. run `npm install`
+<img width="542" height="447" alt="savage-auth" src="https://github.com/user-attachments/assets/5a02e7ae-813d-4fe5-9cc3-8f84f1d992fe" />
 
-## Usage
+Lessons learned:
 
-1. run `node server.js`
-2. Navigate to `localhost:8080`
+- Implementing user authentication using bcryptjs and passport-local.
 
-## Credit
+- Understanding and applying CRUD operations on a database.
 
-Modified from Scotch.io's auth tutorial
+- Updating specific fields dynamically, such as thumbs up and thumbs down counts.
+
+- Managing database connections with MongoDB (using Mongoose or MongoClient).
+
+- Building a dynamic, interactive UI with EJS templates and client-side JavaScript.
+
+- Handling errors, asynchronous operations, and routing in Express.js.
