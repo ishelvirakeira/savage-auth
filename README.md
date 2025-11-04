@@ -2,6 +2,8 @@ This project is a full-stack web application inspired by the “Savage Auth” t
 
 <img width="542" height="447" alt="savage-auth" src="https://github.com/user-attachments/assets/5a02e7ae-813d-4fe5-9cc3-8f84f1d992fe" />
 
+Tools used: JavaScript, EJS templates, Node.js, Express, MongoDB
+
 Lessons learned:
 
 - Implementing user authentication using bcryptjs and passport-local.
@@ -14,4 +16,4 @@ Lessons learned:
 
 - Building a dynamic, interactive UI with EJS templates and client-side JavaScript.
 
-- Handling errors, asynchronous operations, and routing in Express.js.
+- Handling critical errors, asynchronous operations, and routing in Express.js.
