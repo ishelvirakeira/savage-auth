@@ -1,4 +1,4 @@
-This project is a full-stack web application inspired by the “Savage Auth” template, focusing on 21 Savage fans. Users can sign up, log in, and post messages, and interact with messages by clicking thumbs up and thumbs down. Authentication is handled securely using bcryptjs to hash passwords, and the application demonstrates CRUD operations (Create, Read, Update, Delete) for both messages and user accounts. The project integrates a MongoDB database to store user information and messages, and uses EJS templates for dynamic rendering.
+This project is a full-stack web application where users can sign up, log in, and post messages, and interact with messages by clicking thumbs up and thumbs down. Authentication is handled securely using bcryptjs to hash passwords, and the application demonstrates CRUD operations (Create, Read, Update, Delete) for both messages and user accounts. The project integrates a MongoDB database to store user information and messages, and uses EJS templates for dynamic rendering.
 
 Find the live demo at https://savage-auth-9ii3.onrender.com
 
